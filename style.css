@@ -1,8 +1,74 @@
-#searchBar {
-  margin: 15px 10px;
+html, body {
+ font-family: 'Futura', sans-serif;
+ background: #E8E4E3;
 }
 
-.tableWrapper {
-  max-height: 400px;
+h1, h2, th{
+  color: #E4572E;
+}
+
+h3, p {
+  color: white;
+}
+
+th {
+  align-self: top;
+}
+
+tr {
+  width: 555px;
+}
+
+td {
+  background-color:#F9B872;
+  color: #FFFFFF;
+}
+
+td:hover {
+  background-color: #E4572E;
+}
+
+button {
+  background: #F9B872;
+  border: none;
+  color: #E4572E;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+
+button:hover {
+  background: #E4572E;
+  color: white;
+}
+
+#searchBar { /* id */
+  margin: 15px 10px;
+  background: #FFFFFF;
+  color: #E4572E;
+}
+
+.input-group-addon, .form-control {
+  color: #E4572E;
+}
+
+.jumbotron {
+  padding: 5px;
+  padding-top: 3px;
+  background-color: #F9B872;
+}
+
+.tableWrapper { /* class */
+  max-height: 70vh;
   overflow: auto;
+  margin: auto;
+  background: #F9B872;
+}
+
+.listingForm {
+  background: #F9B872;
+  padding: 10px;
 }
